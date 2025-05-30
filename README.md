@@ -27,7 +27,7 @@ Each calculation is repeated thousands of times to create sustained CPU load, ge
 
 ```bash
 # Run with default settings (10M calculations, ~30-60 seconds)
-docker run --rm your-username/cpu-benchmark
+docker run --rm s4l3h1/cpu_intensive
 
 # Lighter test (faster completion)
 docker run --rm -e NUM_CALCULATIONS=1000000 -e ITERATIONS_PER_NUMBER=1 s4l3h1/cpu_intensive
